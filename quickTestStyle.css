@@ -7,16 +7,13 @@ body {
     padding: 0;
 }
 body[cursorsize='L'] * {
-/* .cursorL * { */
-    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto!important;
+    cursor: url('leftBevelSmall.cur'), auto!important;
 }
 body[cursorsize='XL'] * {
-/* .cursorXL * { */
-    cursor: url('cursorXL.svg'), auto!important;
+    cursor: url('leftArrowTransMed.svg'), auto!important;
 }
 body[cursorsize='XXL'] * {
-/* .cursorXXL * { */
-    cursor: url('cursorXXL.svg'), e-resize!important;
+    cursor: url('leftArrowBlkHuge.cur'), e-resize!important;
 }
 
 .userSelection {
