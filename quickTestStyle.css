@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body[cursorsize='L'] * {
+/* .cursorL * { */
+    cursor: url('cursorL.svg'), auto!important;
+}
+body[cursorsize='XL'] * {
+/* .cursorXL * { */
+    cursor: url('cursorXL.svg'), auto!important;
+}
+body[cursorsize='XXL'] * {
+/* .cursorXXL * { */
+    cursor: url('cursorXXL.svg'), e-resize!important;
+}
+
+.userSelection {
+    margin-left: 50px;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1500px;
+    background: grey;
+}
+
+.square1, .square2 {
+    width: 480px;
+    height: 480px;
+    margin: 2px 
+}
+
+.square1 {
+    background: blue;
+    cursor: grab;
+}
+.square2 {
+    background: red;
+    cursor: move;
+}
+.square1:hover {
+    background: white;
+}
+.square2:hover {
+    background: white;
+}
