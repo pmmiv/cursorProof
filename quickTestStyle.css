@@ -10,7 +10,7 @@ body[cursorsize='L'] * {
     cursor: url('leftBevelSmall.cur'), auto!important;
 }
 body[cursorsize='XL'] * {
-    cursor: url('leftArrowTransMed.svg'), auto!important;
+    cursor: url('leftArrowTransMed.cur'), auto!important;
 }
 body[cursorsize='XXL'] * {
     cursor: url('leftArrowBlkHuge.cur'), e-resize!important;
